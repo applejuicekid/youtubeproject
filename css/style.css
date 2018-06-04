@@ -1,0 +1,103 @@
+
+
+* {
+  box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+  list-style-type: none;
+}
+
+/* header */
+header {
+    height: 100px;
+    width: auto;
+    background-color: white;
+    display: flex;
+}
+#right {
+  display: inline;
+  padding-left: 800px;
+}
+
+img.logo {
+  width: 50px;
+  height: 30px;
+}
+img.user {
+  width: 20px;
+  height: 20px;
+}
+img.user2 {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* side*/
+.side {
+  padding: 0 0.75em;
+}
+
+.side {
+  height: 100px;
+  width: auto;
+  background-color: white;
+  display: flex;
+}
+img.heart {
+  width: 30px;
+  height: 30px;
+}
+
+/*bigpic*/
+.bigpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div.bigpic {
+    text-align: left;
+}
+
+div.leftlike {
+  text-align: center;
+}
+
+div.views {
+  text-align: right;
+}
+img.sub {
+  width: 70px;
+  height: 70px;
+}
+img.like {
+  width: 50px;
+  height: 30px;
+}
+/* footer */
+.bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*about*/
+.about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.about {
+  border: 1px solid black ;
+}
+div.about {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 768px;) {
+
+}
