@@ -1,68 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Youtube White</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <title>Youtube White</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <section class="header-section">
+        <img class="logo" src="./pictures/logo.svg.png" alt="youtube logo">
+        <input class="search" type="search" name="search" value="search">
+      </section>
 
-  <header>
-    <section>
-      <img class="logo" src="./pictures/logo.svg.png" alt="youtube logo">
-      <input type="search" name="search" value="search">
-    </section>
-
-    <section id="right">
-      <img class="user" src="./pictures/user.png" alt="username">
-      <p>+ Upload</p>
-    </section>
-
-  </header>
+      <section class="header-section">
+        <img class="user" src="./pictures/user.png" alt="username">
+        <p class="upload">+ Upload</p>
+      </section>
+    </header>
 
   <div class="content">
-
-
     <div class="side">
+      <h3>Guide</h3>
       <ul>
-        <h3>Guide</h3>
-
-        <li>
-          <i class="fas fa-user-circle"></i>
-          Username
-        </li>
-
-        <li>
-          <i class="fas fa-globe"></i>
-          To Watch
-        </li>
-        <li>
-          <i class="far fa-heart"></i>
-          Subscriptions
-        </li>
-        <li>
-          <i class="fas fa-history"></i>
-          History
-        </li>
-        <li>
-          <i class="far fa-clock"></i>
-          Watch Later
-        </li>
+        <li><i class="fas fa-user-circle"></i>Username</li>
+        <li><i class="fas fa-globe"></i>To Watch</li>
+        <li><i class="far fa-heart"></i>Subscriptions</li>
+        <li><i class="fas fa-history"></i>History</li>
+        <li><i class="far fa-clock"></i>Watch Later</li>
       </ul>
     </div>
 
     <div class="everything-else">
-
       <div class="bigpic">
         <img class="ocean-pic" src="./pictures/Beautiful-Ocean.jpg" alt="ocean">
       </div>
 
       <div class="picinfo">
-
         <div class="rightbox">
           <img class="user" src="./pictures/user.png" alt="Username">
           <p>published on May 26, 2012</p>
@@ -70,37 +47,36 @@
         </div>
         
         <div class="leftbox">
-          <p>
-            Beautiful Landscape Pictures
-          </p>
+          <p>Beautiful Landscape Pictures</p>
           <div class="views">
             <p>324,732 views</p>
             <img class=like src="./pictures/like.png" alt="like">
           </div>
         </div>
-
-
       </div>
 
-      <h2>
-        <div class="about">
-          <p>About</p>
-        </div>
-      </h2>
-
-
+      <div class="about">
+        <h2>About</h2>
+      </div>
+      
       <div class="bottom">
+        <!-- when you create a <ul> the children should be a <li>-->
         <ul>
-          <img class=user2 src="./pictures/user2.png" alt="Username">
-          <p>Amazing</p>
-          <img class=user2  src="./pictures/user2.png" alt="Username">
-          <p>Best wave ever</p>
-          <img class=user2  src="./pictures/user2.png" alt="Username">
-          <p>love the oecan</p>
+          <li>
+            <img class=user2 src="./pictures/user2.png" alt="Username">
+            <p>Amazing</p>
+          </li>
+          <li>
+            <img class=user2 src="./pictures/user2.png" alt="Username">
+            <p>Best wave ever</p>
+          </li>
+          <li>
+            <img class=user2 src="./pictures/user2.png" alt="Username">
+            <p>love the oecan</p>
+          </li>
         </ul>
+        </div>
       </div>
     </div>
-
-
   </body>
-  </html>
+</html>
